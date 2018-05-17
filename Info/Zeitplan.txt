@@ -1,0 +1,25 @@
+Woche 1 (Sa, 12.05 - Fr, 18.05)
+  - Schnittstellenbeschreibung (2) (11.05)
+  - PhoneGap projekt starten (11.05)
+  - User Interface: (12-13.05) --> Sonntag 
+    - HTML und CSS für:
+      1. 'Start' Seite
+      2. 'Add User' Seite
+      3. 'Round n' Seite
+      4. 'Quiz' Seite
+      5. 'End Stats' Seite
+    - Verwendung von Jquery UI?
+    - Übungen (2-6, 5) (Mon-Wed)
+
+Woche 2 (Sa, 19.05 - Fr, 25.05)
+  - Fragen Server erstellen CMS
+  - JavaScript Logik einbauen
+
+Woche 3 (Sa, 26.05 - Fr, 1.06)
+  - Canvas Elemente erstellen
+  - Animationen einführen:
+      - Timer animation
+      - Start Seite animation (bubbling glass)
+      - Reward
+      - Penalty
+      - Round number animation

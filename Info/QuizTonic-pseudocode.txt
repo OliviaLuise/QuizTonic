@@ -1,0 +1,48 @@
+QuizTonic Pseudocode
+
+Start program - Load Start page
+
+User presses 'START NEW QUIZ' button
+
+  Link to 'Add users' page
+      if(users<= 6) allow add user
+      read username                   //optional: access camera for profile pic
+      create array for each user to save:
+        1. correct answers
+        2. number of sips
+      press 'READY' button once all players are entered
+
+  Link to 'Round' page
+    round ++
+    if( round > 1) add 'End Game' button
+    else add 'Begin Round n' button
+    if User 1 presses 'Begin Round n' button then load 'Quiz'
+    if User presses 'End Game' button then load 'End stats'
+
+  Link to 'Quiz'
+    Select user n
+    read user n % of correct answers
+    select appropriate questions from catalog according to %
+       (100-81% all questions
+        80-61% remove questions with difficulty 10-9
+        60-41% remove questions with difficulty 10-7
+        40 or below remove questions with difficult 10-6
+        )
+    write selected question and possible answers
+    set Timer
+    if (correct answer selected)
+      then write reward
+      read which user? gets sips
+      push correct answer to user array
+      click
+    else if (incorrect answer || timer = 0)
+      then write penalty
+      push sips to user array
+
+
+    Repeat for each user
+    when user = max then link to 'Round' page
+
+  Link to 'End Stats'
+
+End program - Return to Start page
